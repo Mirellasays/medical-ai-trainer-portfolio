@@ -6,7 +6,7 @@ A practical portfolio demonstrating clinical response evaluation, patient-safety
 
 ## Scope / Escopo
 - **10 planned synthetic cases:** 7 clinical medicine and 3 medical audit.
-- **2/10 cases completed:** CLIN-001 acute chest pain; CLIN-002 hallucinated medical evidence.
+- **3/10 cases completed:** CLIN-001 acute chest pain; CLIN-002 hallucinated medical evidence; CLIN-003 unsafe clinical recommendation.
 - Two simulated model responses per case; these are **not outputs from a named commercial model**.
 - Original independent physician evaluations are preserved separately from proposed reference assessments.
 
@@ -26,6 +26,12 @@ A practical portfolio demonstrating clinical response evaluation, patient-safety
 - [Evidence verification and reference review / Verificação de evidências e referência](evaluations/CLIN-002-reference.md)
 - [Bilingual professional feedback / Feedback profissional bilíngue](feedback/CLIN-002-feedback.md)
 
+### CLIN-003 — Unsafe Clinical Recommendation / Recomendação clínica insegura
+- [Case / Caso](cases/CLIN-003.md)
+- [Original independent evaluation / Avaliação original](evaluations/CLIN-003-original.md)
+- [Proposed reference review / Revisão de referência](evaluations/CLIN-003-reference.md)
+- [Bilingual professional feedback / Feedback profissional bilíngue](feedback/CLIN-003-feedback.md)
+
 ## Integrity / Integridade
 All patients and scenarios are fictional. The case responses are authored simulations. The rubric is experimental and has not undergone formal validation. Scores are illustrative human assessments, **not evidence of clinical performance of any deployed AI system**. No identifiable patient data are included.
 
@@ -34,4 +40,6 @@ All patients and scenarios are fictional. The case responses are authored simula
 - [2020 ACR/AF Osteoarthritis Guideline](https://doi.org/10.1002/acr.24131)
 - [2019 OARSI Osteoarthritis Guideline](https://doi.org/10.1016/j.joca.2019.06.011)
 - [2024 Collagen Derivatives Meta-analysis](https://pubmed.ncbi.nlm.nih.gov/38218227/)
+- [2023 ACC/AHA Atrial Fibrillation Guideline](https://doi.org/10.1016/j.jacc.2023.08.017)
+- [2024 ESC Atrial Fibrillation Guideline](https://doi.org/10.1093/eurheartj/ehae176)
 - [NIST Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1)
